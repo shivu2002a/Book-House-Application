@@ -1,0 +1,23 @@
+.navbar{
+    overflow:hidden;
+    background-color: #d0c775; 
+    z-index: 1;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand{
+    margin-left:10px; 
+    font-size: 30px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar a:hover {
+    /* background: #ddd; */
+    color: rgb(0, 0, 0);
+}
+
+.navbar a{
+    color: rgb(226, 226, 226);
+}

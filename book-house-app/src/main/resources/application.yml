@@ -1,0 +1,41 @@
+server:
+  port: 8082
+  error:
+    whitelabel:
+      enabled: false
+    path: /error
+
+#Basic spring configs
+spring:
+  main.allow-circular-references: true
+  application.name: Book House App
+  output.ansi.enabled: always
+
+#OAuth Login credentials
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: #
+            client-secret: # 
+
+#Spring Data for Apache Cassandra configurations 
+  data:
+    cassandra:
+      username: #
+      password: #
+      keyspace-name: main
+      schema-action: create-if-not-exists
+      request:
+        timeout: 30s
+
+#Astra configs
+astra.db:
+    id: #
+    application.token: #
+    region: us-east1
+    keyspace: main
+
+#Secure connect bundle 
+datastax.astra.secure-connect-bundle: #path 

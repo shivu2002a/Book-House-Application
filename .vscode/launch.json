@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Hamiltonian1",
+            "request": "launch",
+            "mainClass": "Hamiltonian1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hamiltonian",
+            "request": "launch",
+            "mainClass": "Hamiltonian"
+        },
+        {
+            "type": "java",
+            "name": "Launch TravellingSalesman",
+            "request": "launch",
+            "mainClass": "TravellingSalesman"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knapsack",
+            "request": "launch",
+            "mainClass": "Knapsack"
+        },
+        {
+            "type": "java",
+            "name": "Launch KnapsackDP",
+            "request": "launch",
+            "mainClass": "KnapsackDP"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BookHouseAppApplication<book-house-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.shivu.bookhouseapp.BookHouseAppApplication",
+            "projectName": "book-house-app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
